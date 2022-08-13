@@ -15,6 +15,7 @@ max_cat = 6
 min_play = 2
 max_play = 10
 
+
 def web_response(cat, players):
     res = requests.get(
         f"https://the-trivia-api.com/api/"
@@ -24,4 +25,3 @@ def web_response(cat, players):
     rest = res.json()
     print(rest)  # del
     return rest
-

@@ -40,11 +40,12 @@ def player_name(number):
     print(players_name)
     return players_name
 
+
 def question_choice(max_ques):
     user_input = 'c'
     while not inp_check(1, max_ques, user_input):
         user_input = input(f"Введите номер вопроса,номер вводится числом,которое не может быть "
-                              f"больше {max_ques} и меньше 1"'\n')
+                           f"больше {max_ques} и меньше 1"'\n')
         if inp_check(1, max_ques, user_input):
             int_user_input = int(user_input)
             return int_user_input

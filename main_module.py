@@ -2,6 +2,7 @@ from service_module import web_response, question_values, categories
 from inteface_module import player_name, number_of_players, category_choice, question_choice
 from check_module import check_answer
 
+
 def game():
     """Основная функция, в которой происходит процесс игры, на выходе возвращает словарь типа игрок-очки
     (ещё не дописана)"""
@@ -59,7 +60,6 @@ def game():
         players_point = points[f'player{pl_count}']
         print(f'У игрока player{pl_count} - {players_point}  очков')
         pl_count += 1
-
 
 
 game()
