@@ -24,3 +24,4 @@ def web_response(cat, players):
     rest = res.json()
     print(rest)  # del
     return rest
+
