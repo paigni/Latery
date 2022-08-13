@@ -37,7 +37,6 @@ def player_name(number):
     for count in range(0, number):
         players_score = 0
         players_name.append({f'player{count}': players_score})
-    print(players_name)
     return players_name
 
 

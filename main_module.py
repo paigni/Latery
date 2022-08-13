@@ -15,7 +15,6 @@ def game():
     while not questions_and_answers == []:
         play_copy = play.copy()
         max_ques = len(questions_and_answers)
-        print(questions_and_answers)
         if max_ques > 1:
             for value in questions_and_answers:
                 dif = value.get('difficulty')

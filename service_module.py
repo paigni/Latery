@@ -23,5 +23,4 @@ def web_response(cat, players):
         f"&limit={players}"
     )
     rest = res.json()
-    print(rest)  # del
     return rest
